@@ -1,0 +1,145 @@
+<!-- Nur Hikmah Juliyanti -->
+<!-- 121140137 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prak Pemweb</title>
+    <link rel="stylesheet" href="style2.css"> 
+</head>
+<body>
+    <div class="cv" border="1">
+    <header class="atas">
+        <img src ="Aset/saya.jpg" width="300" alt=" ini foto saya" class="gambar">
+
+    <div class="judul">    
+        <h1>It's Me</h1>
+        <h1>Nur Hikmah Juliyanti</h1>
+    
+    </div>
+    </header>
+
+    <nav class="navbar">
+        <li class="menu"><a href="#tentang_saya">Tentang Saya</a></li>
+        <li class="menu"><a href="#jadwal_saya">Jadwal Saya</a></li>
+        <li class="menu"><a href="#kontak">Kontak</a></li>
+    </nav>
+
+    <div class="tentang" id="tentang_saya">
+    <h2>Tentang Saya</h2>
+    <p align = "Justify"> 
+        Halo!
+        Perkenalkan nama saya Nur Hikmah Juliyanti mahasiswa semester 5 teknik informatika.
+        Saya berasal dari Kabupaten Lampung Barat. Sekarang saya tinggal di Jati Agung Kabupaten lampung Selatan.
+        Hobi saya adalah membaca AU (Alternatif Univers), mendengarkan musik dan tidur.
+        Selain itu, saya juga sangat menyukai minuman teh kotak. 
+        Saya juga menyukai beberapa member NCT yaitu Jaehyun dan Haechan. 
+        Saat ini saya sedang aktif di dalam organisasi mahasiswa teknik informatika ITERA sebagai staff divisi ekstra kampus. 
+    </p>
+    </div>
+
+    <div class="video">
+    <p><b>Stroling Around Hactive8</b></p>
+    <video src = "Aset/video.mp4" controls width="15%" height="15%">video</video><br>
+    </div>
+
+    <div class="jadwal" id="jadwal_saya">
+    <table border="1">
+         <p><b>Jadwal Kuliah</b></p>
+        <tr>
+            <th rowspan="2">Hari</th>
+            <th rowspan="2">Mata Kuliah</th>
+            <th colspan="2">waktu</th>
+        <tr>
+            <th>Mulai</th>
+            <th>Selesai</th>
+        </tr>    
+        </tr>
+        <tr>
+            <td rowspan="2">Senin</td>
+            <td>Intelegensi Buatan</td>
+            <td>09.30</td>
+            <td>12.00</td>
+        </tr>
+        <tr>
+            <td>Sistem Informasi</td>
+            <td>15.30</td>
+            <td>17.00</td>
+        </tr>
+        <tr>
+            <td>Selasa</td>
+            <td>Jaringan Komputer</td>
+            <td>08.00</td>
+            <td>09.10</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Rabu</td>
+            <td>Praktikum Jarkom</td>
+            <td>07.30</td>
+            <td>09.30</td>
+        </tr>
+        <tr>
+            <td>Metodologi Penelitia</td>
+            <td>15.30</td>
+            <td>17.00</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Kamis</td>
+            <td>Kapita Selekta</td>
+            <td>13.00</td>
+            <td>15.15</td>
+        </tr>
+        <tr>
+            <td>Interaksi Manusia Dan Komputer</td>
+            <td>15.30</td>
+            <td>17.10</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Jumat</td>
+            <td>Manajemen Proyek Teknologi Informasi</td>
+            <td>09.00</td>
+            <td>12.00</td>
+        </tr>
+        <tr>
+            <td>Pemrograman Web</td>
+            <td>15.30</td>
+            <td>17.00</td>
+        </tr>
+    </table>
+    </div>
+
+    <div class="kontak" id="kontak">
+    <h2>Hubungi Saya</h2>
+    <ul>
+    <li><a href="https://wa.me/+6281278045928">WhatsApp</a></li>
+    <li><a href="https://instagram.com/nurhikmahjuliyanti_?igshid=YTQwZjQ0NmI0OA==">Instagram</a></li>
+    </ul>
+    </div>
+
+    <div class="pilihan">
+    <from action="hasil.html"method="POST"></from >  
+    <h2>Pilihlah</h2>  
+        <p> Masukkan Email </p>
+        <label for="email">email : </label>
+        <input type="text" placeholder="nur@gmail.com" id="email" name="soal">
+
+        <p>Apakah kalian menyukai teh kotak?</p>
+        <input type="radio" name="soal1" value="1"> Iya <br>
+        <input type="radio" name="soal2" value="2"> Tidak <br>
+
+        <p>Minuman teh mana yang akan kalian pilih?</p>
+        <input type="checkbox" name="soal3" value="inidong"> Teh Kotak <br>
+        <input type="checkbox" name="soal3" value="iniaja"> Teh Botol <br>
+        <input type="checkbox" name="soal3" value="inilah"> Teh Gelas <br>
+
+
+        <button class="btn" type="submit">simpan</button>
+    </from>
+    </div>
+    <footer class="bawah">
+        <h3>Create By Nur Hikmah J</h3>
+    </footer>
+</body>
+</html>
