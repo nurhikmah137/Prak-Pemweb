@@ -1,0 +1,53 @@
+<!-- Nur Hikmah Juliyanti
+     121140137
+     Pemweb RC -->
+     
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Menghitung Ganjil Genap</title>
+</head>
+<body>
+      <script>
+           function genap(a){
+            let jumlah_genap = 0;
+            for(let i=1; i<=a; i++){
+                if(i % 2 == 0){
+                    jumlah_genap ++;
+                }
+            }
+            return jumlah_genap;
+           }
+
+           function ganjil(a){
+            let jumlah_ganjil = 0;
+            for(let i=1; i<=a; i++){
+                if(i % 2 !=0){
+                    jumlah_ganjil ++;
+                }
+            }
+            return jumlah_ganjil;
+           }
+            
+           let pilih = true;
+
+            while(pilih==true){
+                let a = prompt("Masukkan Angka ");
+
+                let jumlah_ganjil = ganjil(a);
+                let jumlah_genap = genap(a);
+
+                alert("Jumlah bilangan ganjil : " + jumlah_ganjil + "\n Jumlah bilangan genap : " + jumlah_genap);
+
+                let gas = prompt("lanjut ya/tidak");
+                if(gas=="ya"){
+                    pilih===true;
+                }else{
+                    break;
+                }
+            }
+      </script>
+</body>
+</html>
