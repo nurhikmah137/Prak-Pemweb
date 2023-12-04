@@ -1,3 +1,6 @@
+// Nur Hikmah Juliyanti
+// 121140137 RC
+
 <?php
 $servername = "localhost";
 $username = "root";
